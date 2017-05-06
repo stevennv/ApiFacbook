@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "980639698872",
+    "firebase_url": "https://apifacbook.firebaseio.com",
+    "project_id": "apifacbook",
+    "storage_bucket": "apifacbook.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980639698872:android:579466381906d7e4",
+        "android_client_info": {
+          "package_name": "steven.apifacbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "980639698872-bb7s4fqbr1ugllaajninkdbh2jb1limj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "steven.apifacbook",
+            "certificate_hash": "5373488c8a63821a4e31f56e577dd974280f64bc"
+          }
+        },
+        {
+          "client_id": "980639698872-u2bn5tqp27855776pc008vvkpu9n117f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRxVjAlIvNJAGKjXliE7ITbUU8ykHEpag"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "980639698872-u2bn5tqp27855776pc008vvkpu9n117f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

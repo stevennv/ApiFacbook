@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CircleProgressBar">
+        <attr name="progress" format="integer" />
+        <attr name="progress_color" format="color" />
+        <attr name="bar_color" format="color" />
+        <attr name="progress_width" format="dimension" />
+        <attr name="bar_width" format="dimension" />
+        <attr name="text_color" format="color" />
+        <attr name="text_size" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="ScrollableLayout">
+        <attr name="scrollable_maxScroll" format="dimension" />
+        <attr name="scrollable_scrollerFlywheel" format="boolean" />
+        <attr name="scrollable_considerIdleMillis" format="integer" />
+        <attr name="scrollable_defaultCloseUp" format="boolean" />
+        <attr name="scrollable_friction" format="float" />
+
+        <attr name="scrollable_closeUpAnimationMillis" format="integer" />
+        <attr name="scrollable_closeUpAnimatorInterpolator" format="reference" />
+
+        <attr name="scrollable_autoMaxScroll" format="boolean" />
+        <attr name="scrollable_autoMaxScrollViewId" format="reference" />
+    </declare-styleable>
+
+
+    <declare-styleable name="RangeSeekBar">
+        <attr name="absoluteMinValue" format="integer|float" />
+        <attr name="absoluteMaxValue" format="integer|float" />
+        <attr name="singleThumb" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="HorizontalNumberPicker">
+        <attr name="value" format="integer" />
+        <attr name="minValue" format="integer" />
+        <attr name="maxValue" format="integer" />
+        <attr name="plusButtonText" format="string" />
+        <attr name="minusButtonText" format="string" />
+        <attr name="repeatDelay" format="integer" />
+        <attr name="stepSize" format="integer" />
+        <attr name="showLeadingZeros" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="SmartTabLayout">
+        <attr name="indicatorAlwaysInCenter" format="boolean" />
+        <attr name="indicatorWithoutPadding" format="boolean" />
+        <attr name="indicatorInFront" format="boolean" />
+        <attr name="indicatorInterpolation" format="enum">
+            <enum name="smart" value="0" />
+            <enum name="linear" value="1" />
+        </attr>
+        <attr name="indicatorGravity" format="enum">
+            <enum name="bottom" value="0" />
+            <enum name="top" value="1" />
+            <enum name="center" value="2" />
+        </attr>
+        <attr name="indicatorColor" format="color" />
+        <attr name="indicatorColors" format="reference" />
+        <attr name="indicatorThickness" format="dimension" />
+        <attr name="indicatorWidth" format="dimension">
+            <enum name="auto" value="-1" />
+        </attr>
+        <attr name="indicatorCornerRadius" format="dimension" />
+        <attr name="overlineColor" format="color" />
+        <attr name="overlineThickness" format="dimension" />
+        <attr name="underlineColor" format="color" />
+        <attr name="underlineThickness" format="dimension" />
+        <attr name="dividerColor" format="color" />
+        <attr name="dividerColors" format="reference" />
+        <attr name="dividerThickness" format="dimension" />
+        <attr name="defaultTabBackground" format="reference" />
+        <attr name="defaultTabTextAllCaps" format="boolean" />
+        <attr name="defaultTabTextColor" format="color|reference" />
+        <attr name="defaultTabTextSize" format="dimension" />
+        <attr name="defaultTabTextHorizontalPadding" format="dimension" />
+        <attr name="defaultTabTextMinWidth" format="dimension" />
+        <attr name="customTabTextLayoutId" format="reference" />
+        <attr name="customTabTextViewId" format="reference" />
+        <attr name="distributeEvenly" format="boolean" />
+        <attr name="clickable" format="boolean" />
+        <attr name="titleOffset" format="dimension">
+            <enum name="auto_center" value="-1" />
+        </attr>
+        <attr name="drawDecorationAfterTab" format="boolean" />
+    </declare-styleable>
+</resources>

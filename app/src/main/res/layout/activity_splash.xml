@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_splash"
+    tools:context="steven.apifacbook.activity.SplashActivity">
+
+    <FrameLayout
+        android:id="@+id/layoutProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp">
+
+
+        <TextView
+            android:id="@+id/tvProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:text="0%"
+            android:textColor="@color/text_color_white"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <steven.apifacbook.ultis.progressviews.CircleProgressBar
+            android:id="@+id/circle_progress"
+            android:layout_width="@dimen/circle_loading_width"
+            android:layout_height="@dimen/circle_loading_width"
+            app:bar_width="3dp"
+            app:progress="0"
+            app:progress_width="6dp" />
+
+
+    </FrameLayout>
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/btn_login_fb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+</RelativeLayout>

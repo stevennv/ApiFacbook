@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ApiFacbook</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="facebook_app_id">1129566963818920</string>
+    <string name="pls_login">Mời bạn đăng nhập</string>
+    <string name="progress">progress</string>
+    <string name="title_activity_menu_coupon">MenuCouponActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="download_error">Download không thành công \n Vui lòng kiểm tra lại</string>
+    <string name="download">Download</string>
+    <string name="cancel">Cancel</string>
+    <string name="download_success">Đã tải thành công</string>
+    <string name="enter_name">Nhập tên bạn muốn lưu</string>
+    <string name="delete_done">Đã xóa file thành công</string>
+    <string name="delete_not_done">Xóa file không thành công</string>
+    <string name="list_albums">Danh sách album</string>
+    <string name="check_connection">Vui lòng kiểm tra kết nối mạng</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
